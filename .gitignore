@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# Raw ASL dataset
+data/raw/
+
+# Generated landmark datasets
+data/landmarks/
+# Processed dataset split files
+data/processed/*.csv
+
+# Temporary model
+models/cnn_sanity_check.pth
